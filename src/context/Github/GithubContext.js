@@ -34,11 +34,6 @@ export const GithubContextProvider = ({ children }) => {
   //   });
   // };
 
-  // set loading
-  const setLoading = () => {
-    dispatch({ type: 'SET_LOADING' });
-  };
-
   return (
     // the Provider give access to the context to its children
     <GithubContext.Provider
